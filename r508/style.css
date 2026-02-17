@@ -1,0 +1,125 @@
+html,body {
+	font-family:helvetica-neue,arial,sans-serif;
+	padding: 20px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+h1 {
+	font-size:36px;
+	color:#c42a36;
+	font-weight:lighter;
+}
+h2 {
+	font-size:24px;
+	color:#7bc63e;
+	font-weight:lighter;
+	margin-top: 60px;
+}
+article {
+	text-align: justify;
+	margin: 20px 40px;
+}
+.entete {
+	font-size:12px;
+}
+.entete a {
+	color: #ffffff;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#7bc63e;
+	padding:1px 10px;
+	margin-right: 4px;
+	border-radius:10px;
+}
+.entete div {
+	color: #ffffff;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#7bc63e;
+	padding:4px 10px;
+	margin-top:20px;
+	border-radius:10px;
+}
+.entete div form {
+	padding:8px 8px 0px 8px;
+}
+.entete div form input {
+	background-color: #ffffff;
+	border: none;
+	margin:0px 0px 4px 0px;
+	padding:2px 4px;
+	border-radius:6px;
+}
+.input {
+	background-color: #ffffff;
+	border: none;
+	margin:0px 0px 4px 0px;
+	padding:2px 4px;
+	border-radius:6px;
+}
+header img {
+	display: block;
+	margin-bottom: 20px;
+}
+header span {
+	float:right;
+}
+.champ {
+	display: inline-block;
+	font-size:26px;
+	color:#4e92c9;
+	background-color:#ffffff;
+	padding: 4px 20px;
+	margin: 20px 10px 20px 0px;
+	border: 1px solid #4e92c9;
+	border-radius:20px;
+}
+.selectionne {
+	color:#ffffff;
+	background-color:#4e92c9;
+}
+.secondaire {
+	color:rgba(0,0,0,0.4);
+	font-size:12px;
+}
+select {
+	font-size: inherit;
+	appearance: none;
+	padding: 10px;
+	background: #dbe9f4;
+	border: 1px solid #4e92c9;
+	width: 50%;
+}
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin: 40px 0px;
+	font-size:15px;
+}
+table tbody tr:nth-child(even) {
+	background: #ffffff;
+}
+table tbody tr:nth-child(odd) {
+	background: #f2f2f2;
+}
+table thead tr {
+	border:none;
+}
+table thead td {
+	border:none;
+	padding-bottom: 4px;
+	color:#4e92c9;
+	font-weight: bold;
+	font-size:12px;
+}
+table tbody td {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 4px;
+	cursor: default;
+	border-bottom:1px solid #ccc;
+}
